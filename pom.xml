@@ -5,7 +5,7 @@
 
     <groupId>org.springframework</groupId>
     <artifactId>spring-boot-aws</artifactId>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
