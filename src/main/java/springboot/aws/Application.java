@@ -24,7 +24,7 @@ public class Application {
     @Bean
     CommandLineRunner init(PersonRepository rr) {	
         return args -> {
-	        rr.findAll().forEach(p -> LOGGER.info("Person: " + p));
+	        rr.findAll().forEach(p -> LOGGER.info("{}", p));
         };
     }
 
